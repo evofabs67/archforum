@@ -1,0 +1,1407 @@
+Jan 08 13:20:43 host systemd[1]: Starting Wireless service...
+Jan 08 13:20:44 host iwd[573]: Wireless daemon version 1.20
+Jan 08 13:20:44 host iwd[573]: src/main.c:main() Using configuration directory /etc/iwd
+Jan 08 13:20:44 host iwd[573]: Loaded configuration from /etc/iwd/main.conf
+Jan 08 13:20:44 host iwd[573]: src/storage.c:storage_create_dirs() Using state directory /var/lib/iwd
+Jan 08 13:20:44 host systemd[1]: Started Wireless service.
+Jan 08 13:20:44 host iwd[573]: src/main.c:nl80211_appeared() Found nl80211 interface
+Jan 08 13:20:44 host iwd[573]: src/module.c:iwd_modules_init()
+Jan 08 13:20:44 host iwd[573]: station: Network configuration is disabled.
+Jan 08 13:20:44 host iwd[573]: src/wsc.c:wsc_init()
+Jan 08 13:20:44 host iwd[573]: src/eap.c:__eap_method_enable()
+Jan 08 13:20:44 host iwd[573]: src/eap-wsc.c:eap_wsc_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-md5.c:eap_md5_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-tls.c:eap_tls_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-ttls.c:eap_ttls_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-mschapv2.c:eap_mschapv2_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-sim.c:eap_sim_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-aka.c:eap_aka_prime_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-aka.c:eap_aka_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-peap.c:eap_peap_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-gtc.c:eap_gtc_init()
+Jan 08 13:20:44 host iwd[573]: src/eap-pwd.c:eap_pwd_init()
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_config_notify() Notification of command New Wiphy(3)
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_config_notify() Notification of command New Interface(7)
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 2
+Jan 08 13:20:44 host iwd[573]: Wiphy: 0, Name: phy0
+Jan 08 13:20:44 host iwd[573]:         Permanent Address: b4:6b:fc:6b:5a:76
+Jan 08 13:20:44 host iwd[573]:         2.4Ghz Band:
+Jan 08 13:20:44 host iwd[573]:                 Bitrates (non-HT):
+Jan 08 13:20:44 host iwd[573]:                          1.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                          2.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                          5.5 Mbps
+Jan 08 13:20:44 host iwd[573]:                         11.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                          6.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                          9.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         12.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         18.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         24.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         36.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         48.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         54.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                 HT Capabilities:
+Jan 08 13:20:44 host iwd[573]:                         HT40
+Jan 08 13:20:44 host iwd[573]:                         Short GI for 20Mhz
+Jan 08 13:20:44 host iwd[573]:                         Short GI for 40Mhz
+Jan 08 13:20:44 host iwd[573]:                 HT RX MCS indexes:
+Jan 08 13:20:44 host iwd[573]:                         0-15
+Jan 08 13:20:44 host iwd[573]:         5Ghz Band:
+Jan 08 13:20:44 host iwd[573]:                 Bitrates (non-HT):
+Jan 08 13:20:44 host iwd[573]:                          6.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                          9.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         12.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         18.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         24.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         36.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         48.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                         54.0 Mbps
+Jan 08 13:20:44 host iwd[573]:                 HT Capabilities:
+Jan 08 13:20:44 host iwd[573]:                         HT40
+Jan 08 13:20:44 host iwd[573]:                         Short GI for 20Mhz
+Jan 08 13:20:44 host iwd[573]:                         Short GI for 40Mhz
+Jan 08 13:20:44 host iwd[573]:                 HT RX MCS indexes:
+Jan 08 13:20:44 host iwd[573]:                         0-15
+Jan 08 13:20:44 host iwd[573]:                 VHT Capabilities:
+Jan 08 13:20:44 host iwd[573]:                         160 Mhz operation
+Jan 08 13:20:44 host iwd[573]:                         Short GI for 80Mhz
+Jan 08 13:20:44 host iwd[573]:                         Short GI for 160 and 80 + 80 Mhz
+Jan 08 13:20:44 host iwd[573]:                         Max RX MCS: 0-9 for NSS: 2
+Jan 08 13:20:44 host iwd[573]:                         Max TX MCS: 0-9 for NSS: 2
+Jan 08 13:20:44 host iwd[573]:         Ciphers: CCMP TKIP BIP
+Jan 08 13:20:44 host iwd[573]:         Supported iftypes: ad-hoc station ap p2p-client p2p-go p2p-device
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_interface_dump_callback()
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_get_interface_cb()
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_get_interface_cb()
+Jan 08 13:20:44 host iwd[573]: src/wiphy.c:wiphy_update_reg_domain() New reg domain country code for phy0 is 00
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_config_notify() Notification of command Del Interface(8)
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 17 on ifindex 2
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_del_interface_cb()
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_create_interfaces() creating wlan0
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_create_interfaces() creating wlan0-p2p
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_config_notify() Notification of command New Interface(7)
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_new_station_interface_cb()
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_create_from_genl() Created interface wlan0[3 2]
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_config_notify() Notification of command New Interface(7)
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_new_p2p_interface_cb()
+Jan 08 13:20:44 host iwd[573]: src/p2p.c:p2p_device_update_from_genl() Created P2P device 3
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:44 host iwd[573]: src/wiphy.c:wiphy_reg_notify() Notification of command Wiphy Reg Change(113)
+Jan 08 13:20:44 host iwd[573]: src/wiphy.c:wiphy_update_reg_domain() New reg domain country code for phy0 is XX
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_set_4addr() netdev: 3 use_4addr: 0
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_initial_up_cb() Interface 3 initialized
+Jan 08 13:20:44 host iwd[573]: src/station.c:station_enter_state() Old State: disconnected, new state: autoconnect_quick
+Jan 08 13:20:44 host iwd[573]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 1
+Jan 08 13:20:44 host iwd[573]: src/wiphy.c:wiphy_radio_work_next() Starting work item 1
+Jan 08 13:20:44 host iwd[573]: src/rrm.c:rrm_add_frame_watches()
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:44 host iwd[573]: src/manager.c:manager_config_notify() Notification of command Set Interface(6)
+Jan 08 13:20:44 host iwd[573]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:44 host iwd[573]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 2
+Jan 08 13:20:44 host iwd[573]: src/station.c:station_quick_scan_triggered() Quick scan triggered for wlan0
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:44 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:45 host iwd[573]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_parse_bss_information_elements() Load: 1/255
+Jan 08 13:20:45 host iwd[573]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_parse_bss_information_elements() Load: 25/255
+Jan 08 13:20:45 host iwd[573]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_parse_bss_information_elements() Load: 8/255
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 13:20:45 host iwd[573]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_add_seen_bss() Processing BSS '5c:49:79:41:04:5c' with SSID: XYZ-12345, freq: 5180, rank: 4368, strength: -7300, data_rate: 130.0
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_add_seen_bss() Added new Network "XYZ-12345" security psk
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_add_seen_bss() Processing BSS '5c:49:79:41:04:5b' with SSID: XYZ-12345, freq: 2412, rank: 1941, strength: -7300, data_rate: 57.8
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_add_seen_bss() Processing BSS 'a0:b5:49:0e:75:a8' with SSID: XYZ-12345, freq: 2472, rank: 33, strength: -8900, data_rate: 1.0
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_autoconnect_start()
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_autoconnect_next() autoconnect: Trying SSID: XYZ-12345
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_autoconnect_next() autoconnect: '5c:49:79:41:04:5c' freq: 5180, rank: 4368, strength: -7300
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 13:20:45 host iwd[573]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 2
+Jan 08 13:20:45 host iwd[573]: src/station.c:__station_connect_network() connecting to BSS 5c:49:79:41:04:5c
+Jan 08 13:20:45 host iwd[573]: src/station.c:station_enter_state() Old State: autoconnect_quick, new state: connecting (auto)
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_cancel() Trying to cancel scan id 1 for wdev 2
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_radio_work_done() Work item 1 done
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_radio_work_next() Starting work item 2
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_mac_power_down_cb() Setting generated address on ifindex: 3 to: 8a:ed:a1:b7:06:82
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_reg_notify() Notification of command Wiphy Reg Change(113)
+Jan 08 13:20:45 host iwd[573]: src/wiphy.c:wiphy_update_reg_domain() New reg domain country code for phy0 is XX
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_auth_cb() Error during auth: -2
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_new_scan_results_event()
+Jan 08 13:20:45 host iwd[573]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_authenticate_event()
+Jan 08 13:20:45 host iwd[573]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 13:20:45 host iwd[573]: AP did not include group number in response!
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 13:20:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_authenticate_event()
+Jan 08 13:20:46 host iwd[573]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_authenticate_event()
+Jan 08 13:20:46 host iwd[573]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_associate_event()
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_connect_event()
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 5180, width: 3, center1: 5210, center2: 0
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:20:46 host iwd[573]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:20:46 host iwd[573]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_set_gtk() 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_set_igtk() 3
+Jan 08 13:20:46 host iwd[573]: src/station.c:station_handshake_event() Setting keys
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_set_tk() 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_set_rekey_offload() 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 13:20:46 host iwd[573]: src/station.c:station_connect_cb() 3, result: 0
+Jan 08 13:20:46 host iwd[573]: src/station.c:station_connect_ok()
+Jan 08 13:20:46 host iwd[573]: src/station.c:station_enter_state() Old State: connecting (auto), new state: connected
+Jan 08 13:20:46 host iwd[573]: src/wiphy.c:wiphy_radio_work_done() Work item 2 done
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 13:20:46 host iwd[573]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 13:20:46 host iwd[573]: src/station.c:station_early_neighbor_report_cb() ifindex: 3, error: 0()
+Jan 08 13:21:45 host iwd[573]: Terminate
+Jan 08 13:21:45 host iwd[573]: src/netdev.c:netdev_free() Freeing netdev wlan0[3]
+Jan 08 13:21:45 host iwd[573]: src/device.c:device_free()
+Jan 08 13:21:45 host iwd[573]: src/station.c:station_free()
+Jan 08 13:21:45 host iwd[573]: Removing scan context for wdev 2
+Jan 08 13:21:45 host iwd[573]: src/scan.c:scan_context_free() sc: 0x563c232cf370
+Jan 08 13:21:45 host systemd[1]: Stopping Wireless service...
+Jan 08 13:21:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:21:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 13:21:45 host iwd[573]: src/netdev.c:netdev_link_notify() event 16 on ifindex 3
+Jan 08 13:21:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 13:21:45 host iwd[573]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 13:21:46 host iwd[573]: src/module.c:iwd_modules_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap.c:__eap_method_disable()
+Jan 08 13:21:46 host iwd[573]: src/eap-wsc.c:eap_wsc_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-md5.c:eap_md5_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-tls.c:eap_tls_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-ttls.c:eap_ttls_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-mschapv2.c:eap_mschapv2_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-sim.c:eap_sim_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-aka.c:eap_aka_prime_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-aka.c:eap_aka_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-peap.c:eap_peap_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-gtc.c:eap_gtc_exit()
+Jan 08 13:21:46 host iwd[573]: src/eap-pwd.c:eap_pwd_exit()
+Jan 08 13:21:46 host iwd[573]: Removing scan context for wdev 3
+Jan 08 13:21:46 host iwd[573]: src/scan.c:scan_context_free() sc: 0x563c232c31f0
+Jan 08 13:21:46 host iwd[573]: src/wsc.c:wsc_exit()
+Jan 08 13:21:46 host iwd[573]: src/wiphy.c:wiphy_free() Freeing wiphy phy0[0]
+Jan 08 13:21:46 host iwd[573]: D-Bus disconnected, quitting...
+Jan 08 13:21:46 host systemd[1]: iwd.service: Deactivated successfully.
+Jan 08 13:21:46 host systemd[1]: Stopped Wireless service.
+Jan 08 13:22:04 host systemd[1]: Starting Wireless service...
+Jan 08 13:22:04 host iwd[1927]: Wireless daemon version 1.20
+Jan 08 13:22:04 host iwd[1927]: src/main.c:main() Using configuration directory /etc/iwd
+Jan 08 13:22:04 host iwd[1927]: Loaded configuration from /etc/iwd/main.conf
+Jan 08 13:22:04 host iwd[1927]: src/storage.c:storage_create_dirs() Using state directory /var/lib/iwd
+Jan 08 13:22:04 host systemd[1]: Started Wireless service.
+Jan 08 13:22:04 host iwd[1927]: src/main.c:nl80211_appeared() Found nl80211 interface
+Jan 08 13:22:04 host iwd[1927]: src/module.c:iwd_modules_init()
+Jan 08 13:22:04 host iwd[1927]: station: Network configuration is disabled.
+Jan 08 13:22:04 host iwd[1927]: src/wsc.c:wsc_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap.c:__eap_method_enable()
+Jan 08 13:22:04 host iwd[1927]: src/eap-wsc.c:eap_wsc_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-md5.c:eap_md5_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-tls.c:eap_tls_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-ttls.c:eap_ttls_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-mschapv2.c:eap_mschapv2_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-sim.c:eap_sim_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-aka.c:eap_aka_prime_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-aka.c:eap_aka_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-peap.c:eap_peap_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-gtc.c:eap_gtc_init()
+Jan 08 13:22:04 host iwd[1927]: src/eap-pwd.c:eap_pwd_init()
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_wiphy_dump_callback() New wiphy phy0 added (0)
+Jan 08 13:22:04 host iwd[1927]: Wiphy: 0, Name: phy0
+Jan 08 13:22:04 host iwd[1927]:         Permanent Address: b4:6b:fc:6b:5a:76
+Jan 08 13:22:04 host iwd[1927]:         2.4Ghz Band:
+Jan 08 13:22:04 host iwd[1927]:                 Bitrates (non-HT):
+Jan 08 13:22:04 host iwd[1927]:                          1.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                          2.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                          5.5 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         11.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                          6.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                          9.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         12.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         18.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         24.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         36.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         48.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         54.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                 HT Capabilities:
+Jan 08 13:22:04 host iwd[1927]:                         HT40
+Jan 08 13:22:04 host iwd[1927]:                         Short GI for 20Mhz
+Jan 08 13:22:04 host iwd[1927]:                         Short GI for 40Mhz
+Jan 08 13:22:04 host iwd[1927]:                 HT RX MCS indexes:
+Jan 08 13:22:04 host iwd[1927]:                         0-15
+Jan 08 13:22:04 host iwd[1927]:         5Ghz Band:
+Jan 08 13:22:04 host iwd[1927]:                 Bitrates (non-HT):
+Jan 08 13:22:04 host iwd[1927]:                          6.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                          9.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         12.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         18.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         24.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         36.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         48.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                         54.0 Mbps
+Jan 08 13:22:04 host iwd[1927]:                 HT Capabilities:
+Jan 08 13:22:04 host iwd[1927]:                         HT40
+Jan 08 13:22:04 host iwd[1927]:                         Short GI for 20Mhz
+Jan 08 13:22:04 host iwd[1927]:                         Short GI for 40Mhz
+Jan 08 13:22:04 host iwd[1927]:                 HT RX MCS indexes:
+Jan 08 13:22:04 host iwd[1927]:                         0-15
+Jan 08 13:22:04 host iwd[1927]:                 VHT Capabilities:
+Jan 08 13:22:04 host iwd[1927]:                         160 Mhz operation
+Jan 08 13:22:04 host iwd[1927]:                         Short GI for 80Mhz
+Jan 08 13:22:04 host iwd[1927]:                         Short GI for 160 and 80 + 80 Mhz
+Jan 08 13:22:04 host iwd[1927]:                         Max RX MCS: 0-9 for NSS: 2
+Jan 08 13:22:04 host iwd[1927]:                         Max TX MCS: 0-9 for NSS: 2
+Jan 08 13:22:04 host iwd[1927]:         Ciphers: CCMP TKIP BIP
+Jan 08 13:22:04 host iwd[1927]:         Supported iftypes: ad-hoc station ap p2p-client p2p-go p2p-device
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_create_interfaces() creating wlan0
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_create_interfaces() creating wlan0-p2p
+Jan 08 13:22:04 host iwd[1927]: src/wiphy.c:wiphy_update_reg_domain() New reg domain country code for phy0 is 00
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_config_notify() Notification of command New Interface(7)
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_new_station_interface_cb()
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_create_from_genl() Created interface wlan0[5 4]
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_config_notify() Notification of command New Interface(7)
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_new_p2p_interface_cb()
+Jan 08 13:22:04 host iwd[1927]: src/p2p.c:p2p_device_update_from_genl() Created P2P device 5
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:04 host iwd[1927]: src/wiphy.c:wiphy_reg_notify() Notification of command Wiphy Reg Change(113)
+Jan 08 13:22:04 host iwd[1927]: src/wiphy.c:wiphy_update_reg_domain() New reg domain country code for phy0 is XX
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_set_4addr() netdev: 5 use_4addr: 0
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_initial_up_cb() Interface 5 initialized
+Jan 08 13:22:04 host iwd[1927]: src/station.c:station_enter_state() Old State: disconnected, new state: autoconnect_quick
+Jan 08 13:22:04 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 1
+Jan 08 13:22:04 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 1
+Jan 08 13:22:04 host iwd[1927]: src/rrm.c:rrm_add_frame_watches()
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:04 host iwd[1927]: src/manager.c:manager_config_notify() Notification of command Set Interface(6)
+Jan 08 13:22:04 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 13:22:04 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 13:22:04 host iwd[1927]: src/station.c:station_quick_scan_triggered() Quick scan triggered for wlan0
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:04 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 33/255
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_add_seen_bss() Processing BSS '5c:49:79:41:04:5c' with SSID: XYZ-12345, freq: 5180, rank: 4368, strength: -7300, data_rate: 130.0
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_add_seen_bss() Added new Network "XYZ-12345" security psk
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_add_seen_bss() Processing BSS '5c:49:79:41:04:5b' with SSID: XYZ-12345, freq: 2412, rank: 2912, strength: -7000, data_rate: 86.7
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_autoconnect_start()
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_autoconnect_next() autoconnect: Trying SSID: XYZ-12345
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_autoconnect_next() autoconnect: '5c:49:79:41:04:5c' freq: 5180, rank: 4368, strength: -7300
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 13:22:05 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 2
+Jan 08 13:22:05 host iwd[1927]: src/station.c:__station_connect_network() connecting to BSS 5c:49:79:41:04:5c
+Jan 08 13:22:05 host iwd[1927]: src/station.c:station_enter_state() Old State: autoconnect_quick, new state: connecting (auto)
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:scan_cancel() Trying to cancel scan id 1 for wdev 4
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 1 done
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 2
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_mac_power_down_cb() Setting generated address on ifindex: 5 to: 8a:ed:a1:b7:06:82
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_reg_notify() Notification of command Wiphy Reg Change(113)
+Jan 08 13:22:05 host iwd[1927]: src/wiphy.c:wiphy_update_reg_domain() New reg domain country code for phy0 is XX
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:05 host iwd[1927]: src/netdev.c:netdev_auth_cb() Error during auth: -2
+Jan 08 13:22:05 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_new_scan_results_event()
+Jan 08 13:22:06 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 13:22:06 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 13:22:06 host iwd[1927]: AP did not include group number in response!
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 13:22:06 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 13:22:06 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 5180, width: 3, center1: 5210, center2: 0
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:22:06 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:22:06 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 13:22:06 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 13:22:06 host iwd[1927]: src/station.c:station_connect_cb() 5, result: 0
+Jan 08 13:22:06 host iwd[1927]: src/station.c:station_connect_ok()
+Jan 08 13:22:06 host iwd[1927]: src/station.c:station_enter_state() Old State: connecting (auto), new state: connected
+Jan 08 13:22:06 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 2 done
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 13:22:06 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 13:22:06 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 13:30:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:30:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:30:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 13:30:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 13:30:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 13:30:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 13:31:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 13:40:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:40:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:40:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 13:40:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 13:40:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 13:40:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 13:50:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 13:50:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 13:50:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 13:50:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 13:50:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 13:50:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:00:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:00:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:00:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:00:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:00:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:00:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:10:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:10:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:10:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:10:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:10:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:10:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:20:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:20:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:20:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:20:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:20:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:20:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:24:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:24:32 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:24:32 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:24:32 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:24:32 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:24:32 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:24:32 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:24:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 3
+Jan 08 14:24:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 3
+Jan 08 14:24:32 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:24:32 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:24:35 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:24:35 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:24:35 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:24:35 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 9/255
+Jan 08 14:24:35 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:24:35 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 8/255
+Jan 08 14:24:35 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:24:35 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:24:35 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:24:35 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:24:35 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 3 done
+Jan 08 14:25:35 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:25:35 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:25:35 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:25:35 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:25:35 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:25:35 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:25:35 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 4
+Jan 08 14:25:35 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 4
+Jan 08 14:25:35 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:25:35 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 4/255
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 14/255
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 7/255
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 14:25:39 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:25:39 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5b
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:25:39 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 5
+Jan 08 14:25:39 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 4 done
+Jan 08 14:25:39 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:25:39 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:25:39 host iwd[1927]: AP did not include group number in response!
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:25:39 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:25:39 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 2412, width: 1, center1: 2412, center2: 0
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:25:39 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:25:39 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:25:39 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 14:25:39 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 14:25:40 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:25:40 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 14:25:40 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 14:25:40 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 5 done
+Jan 08 14:25:40 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:25:40 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:25:40 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:25:40 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:25:40 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for a0:b5:49:0e:75:a8: ch 13 (oper class 0), MD not set
+Jan 08 14:26:31 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:26:31 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:26:31 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:26:31 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:26:31 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:26:31 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_ap_directed_roam() ifindex: 5
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_ap_directed_roam() roam: BSS transition received from AP: Disassociation Time: 0, Validity interval: 255
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_ap_directed_roam() roam: AP sent a preferred candidate list
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:27:09 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for 5c:49:79:41:04:5c: ch 36 (oper class 115), MD not set
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 6
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 6
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 4/255
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:27:09 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5c
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:27:09 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 7
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 6 done
+Jan 08 14:27:09 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 7
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:27:09 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:27:09 host iwd[1927]: AP did not include group number in response!
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:27:09 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:27:09 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 5180, width: 3, center1: 5210, center2: 0
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:27:09 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:27:09 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:27:09 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 14:27:09 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 14:27:10 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:27:10 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 14:27:10 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 14:27:10 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 7 done
+Jan 08 14:27:10 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:27:10 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:27:10 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:27:10 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:27:11 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:27:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:30:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:30:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:30:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:30:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:30:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:30:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:38:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:39:43 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:39:48 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:39:48 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:39:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:39:48 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:39:48 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:39:48 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:39:48 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 8
+Jan 08 14:39:48 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 8
+Jan 08 14:39:48 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:39:48 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:39:51 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 11/255
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 8/255
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 14:39:51 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:39:51 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:39:51 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:39:51 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:39:51 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:39:51 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 8 done
+Jan 08 14:40:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:40:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:40:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:40:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:40:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:40:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:40:51 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:40:51 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:40:51 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:40:51 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:40:51 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:40:51 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:40:51 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 9
+Jan 08 14:40:51 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 9
+Jan 08 14:40:51 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:40:51 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:40:57 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:40:57 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:40:57 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:40:57 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:40:57 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:40:57 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 22/255
+Jan 08 14:40:57 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:40:57 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:40:57 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:40:57 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:40:57 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 9 done
+Jan 08 14:41:57 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:41:57 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:41:57 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:41:57 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:41:57 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:41:57 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:41:57 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 10
+Jan 08 14:41:57 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 10
+Jan 08 14:41:57 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:41:57 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:42:01 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 7/255
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 34/255
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 14:42:01 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:42:01 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:42:01 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:42:01 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:42:01 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:42:01 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 10 done
+Jan 08 14:43:01 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:43:01 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:43:01 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:43:01 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:43:01 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:43:01 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:43:01 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 11
+Jan 08 14:43:01 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 11
+Jan 08 14:43:01 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:43:01 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:43:06 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:43:06 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:43:06 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:43:06 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:43:06 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:43:06 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 33/255
+Jan 08 14:43:06 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:43:06 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:43:06 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:43:06 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:43:06 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 11 done
+Jan 08 14:44:06 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:44:06 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:44:06 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:44:06 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:44:06 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:44:06 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:44:06 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 12
+Jan 08 14:44:06 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 12
+Jan 08 14:44:06 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:44:06 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:44:08 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:44:08 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:44:08 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:44:08 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:44:08 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:44:08 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:44:08 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:44:08 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:44:08 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:44:08 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:44:08 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 12 done
+Jan 08 14:45:08 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:45:08 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:45:08 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:45:08 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:45:08 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:45:08 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:45:08 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 13
+Jan 08 14:45:08 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 13
+Jan 08 14:45:08 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:45:08 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:45:10 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:45:10 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:45:10 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:45:10 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:45:10 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:45:10 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 10/255
+Jan 08 14:45:10 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:45:10 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:45:10 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:45:10 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:45:10 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 13 done
+Jan 08 14:46:10 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:46:10 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:46:10 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:46:10 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:46:10 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:46:10 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:46:10 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 14
+Jan 08 14:46:10 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 14
+Jan 08 14:46:10 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:46:10 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:46:15 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 26/255
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 12/255
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 14:46:15 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:46:15 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:46:15 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:46:15 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:46:15 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:46:15 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 14 done
+Jan 08 14:47:15 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:47:15 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:47:15 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:47:15 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:47:15 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:47:15 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:47:15 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 15
+Jan 08 14:47:15 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 15
+Jan 08 14:47:15 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:47:15 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:47:17 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:47:17 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:47:17 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:47:17 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:47:17 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:47:17 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:47:17 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:47:17 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:47:17 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:47:17 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:47:17 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 15 done
+Jan 08 14:48:17 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:48:17 host iwd[1927]: src/station.c:station_roam_trigger_cb() Requesting neighbor report for roam
+Jan 08 14:48:17 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:48:17 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:48:17 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:48:17 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:48:17 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 16
+Jan 08 14:48:17 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 16
+Jan 08 14:48:17 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:48:17 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 3/255
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 8/255
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 14:48:19 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:48:19 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5b
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:48:19 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 17
+Jan 08 14:48:19 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 16 done
+Jan 08 14:48:19 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 17
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:48:19 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:48:19 host iwd[1927]: AP did not include group number in response!
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:48:19 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:48:20 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:48:20 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 2412, width: 1, center1: 2412, center2: 0
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:48:20 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:48:20 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:48:20 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:48:20 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 14:48:20 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 14:48:20 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 17 done
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:48:20 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:48:20 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:48:20 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for a0:b5:49:0e:75:a8: ch 13 (oper class 0), MD not set
+Jan 08 14:49:20 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 14:49:20 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:49:20 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 18
+Jan 08 14:49:20 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 18
+Jan 08 14:49:20 host iwd[1927]: src/station.c:station_roam_trigger_cb() Using cached neighbor report for roam
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:49:20 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:49:20 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:49:20 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_cancel() Trying to cancel scan id 18 for wdev 4
+Jan 08 14:49:20 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 14:49:20 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 19
+Jan 08 14:49:20 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 18 done
+Jan 08 14:49:20 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 19
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 14:49:20 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 13/255
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 9/255
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 5/255
+Jan 08 14:49:22 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:49:22 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5c
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 14:49:22 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 20
+Jan 08 14:49:22 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 19 done
+Jan 08 14:49:22 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 20
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:49:22 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:49:22 host iwd[1927]: AP did not include group number in response!
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 14:49:22 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:49:23 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 14:49:23 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 5180, width: 3, center1: 5210, center2: 0
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:49:23 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:49:23 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:49:23 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 14:49:23 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 14:49:23 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 14:49:23 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 20 done
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 14:49:23 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 14:49:23 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 14:50:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 14:50:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 14:50:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 14:50:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 14:50:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 14:50:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:00:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:00:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:00:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 15:00:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:00:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:00:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:10:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:10:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:10:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 15:10:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:10:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:10:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:20:12 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:20:12 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:20:12 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 15:20:12 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:20:12 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:20:12 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_ap_directed_roam() ifindex: 5
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_ap_directed_roam() roam: BSS transition received from AP: Disassociation Time: 0, Validity interval: 255
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_ap_directed_roam() roam: AP sent a preferred candidate list
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 15:22:27 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for 5c:49:79:41:04:5b: ch 1 (oper class 81), MD not set
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 21
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 21
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 11/255
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 11/255
+Jan 08 15:22:27 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5b
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:22:27 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 22
+Jan 08 15:22:27 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 21 done
+Jan 08 15:22:27 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 22
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:22:27 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:22:27 host iwd[1927]: AP did not include group number in response!
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:22:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:22:28 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:22:28 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 2412, width: 1, center1: 2412, center2: 0
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:22:28 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:22:28 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:22:28 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:22:28 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 15:22:28 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 15:22:28 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 22 done
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 15:22:28 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 15:22:28 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for a0:b5:49:0e:75:a8: ch 13 (oper class 0), MD not set
+Jan 08 15:22:28 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:22:33 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 15:22:33 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 23
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 23
+Jan 08 15:22:33 host iwd[1927]: src/station.c:station_roam_trigger_cb() Using cached neighbor report for roam
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:22:33 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 14/255
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 14/255
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:22:33 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_cancel() Trying to cancel scan id 23 for wdev 4
+Jan 08 15:22:33 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 24
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 23 done
+Jan 08 15:22:33 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 24
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:22:33 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:22:35 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 17/255
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 22/255
+Jan 08 15:22:35 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:22:35 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:22:35 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:22:35 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 15:22:35 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 24 done
+Jan 08 15:23:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:23:27 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:23:32 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 15:23:32 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:23:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 25
+Jan 08 15:23:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 25
+Jan 08 15:23:32 host iwd[1927]: src/station.c:station_roam_trigger_cb() Using cached neighbor report for roam
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:23:32 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 10/255
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:23:32 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:23:32 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_cancel() Trying to cancel scan id 25 for wdev 4
+Jan 08 15:23:32 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:23:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 26
+Jan 08 15:23:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 25 done
+Jan 08 15:23:32 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 26
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:23:32 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:23:34 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:23:34 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 10/255
+Jan 08 15:23:34 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:23:34 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 1/255
+Jan 08 15:23:34 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:23:34 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5c
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:23:34 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 27
+Jan 08 15:23:34 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 26 done
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 27
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:23:34 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:23:34 host iwd[1927]: AP did not include group number in response!
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:23:34 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:23:34 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 5180, width: 3, center1: 5210, center2: 0
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:23:34 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:23:34 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:23:34 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:23:34 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 15:23:34 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 15:23:34 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 27 done
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 15:23:34 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 15:23:34 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:24:20 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:30:13 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:30:13 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:30:13 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 15:30:13 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:30:13 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:30:13 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_ap_directed_roam() ifindex: 5
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_ap_directed_roam() roam: BSS transition received from AP: Disassociation Time: 0, Validity interval: 255
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_ap_directed_roam() roam: AP sent a preferred candidate list
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 15:30:47 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for 5c:49:79:41:04:5b: ch 1 (oper class 81), MD not set
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 28
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 28
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 15/255
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 2/255
+Jan 08 15:30:47 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5b
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:47 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 29
+Jan 08 15:30:47 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 28 done
+Jan 08 15:30:47 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 29
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 15:30:47 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:30:48 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:30:48 host iwd[1927]: AP did not include group number in response!
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:30:48 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:30:48 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 2412, width: 1, center1: 2412, center2: 0
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:30:48 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:30:48 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:30:48 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:30:48 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 15:30:48 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 15:30:48 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 29 done
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 15:30:48 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 15:30:48 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 15:30:48 host iwd[1927]: src/station.c:parse_neighbor_report() Neighbor report received for a0:b5:49:0e:75:a8: ch 13 (oper class 0), MD not set
+Jan 08 15:30:49 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:30:54 host iwd[1927]: src/station.c:station_roam_trigger_cb() 5
+Jan 08 15:30:54 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:30:54 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 30
+Jan 08 15:30:54 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 30
+Jan 08 15:30:54 host iwd[1927]: src/station.c:station_roam_trigger_cb() Using cached neighbor report for roam
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:30:54 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 15/255
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:30:54 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:54 host iwd[1927]: src/station.c:station_roam_failed() 5
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_cancel() Trying to cancel scan id 30 for wdev 4
+Jan 08 15:30:54 host iwd[1927]: src/station.c:station_roam_scan() ifindex: 5
+Jan 08 15:30:54 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 31
+Jan 08 15:30:54 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 30 done
+Jan 08 15:30:54 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 31
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_notify() Scan notification Trigger Scan(33)
+Jan 08 15:30:54 host iwd[1927]: src/scan.c:scan_request_triggered() Active scan triggered for wdev 4
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:scan_notify() Scan notification New Scan Results(34)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 15/255
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 8/255
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:scan_parse_advertisement_protocol()
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:get_scan_callback() get_scan_callback
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:scan_parse_bss_information_elements() Load: 4/255
+Jan 08 15:30:55 host iwd[1927]: src/scan.c:get_scan_done() get_scan_done
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:55 host iwd[1927]: src/station.c:station_transition_start() 5, target 5c:49:79:41:04:5c
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_select_akm() Network is WPA3-Personal...
+Jan 08 15:30:55 host iwd[1927]: src/sae.c:sae_sm_new() Using SAE Hunting and Pecking
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_cqm_rssi_update()
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_radio_work_insert() Inserting work item 32
+Jan 08 15:30:55 host iwd[1927]: src/station.c:station_enter_state() Old State: connected, new state: roaming
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 31 done
+Jan 08 15:30:55 host iwd[1927]: src/wiphy.c:wiphy_radio_work_next() Starting work item 32
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Deauthenticate(39)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_deauthenticate_event()
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Disconnect(48)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_disconnect_event()
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:30:55 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:30:55 host iwd[1927]: AP did not include group number in response!
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Del Station(20)
+Jan 08 15:30:55 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification New Station(19)
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:30:57 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=1, state=committed
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Authenticate(37)
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_authenticate_event()
+Jan 08 15:30:57 host iwd[1927]: src/sae.c:sae_verify_packet() rx trans=2, state=confirmed
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Associate(38)
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_associate_event()
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Connect(46)
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_connect_event()
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_get_oci_cb() Obtained OCI: freq: 5180, width: 3, center1: 5210, center2: 0
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:30:57 host iwd[1927]: src/eapol.c:eapol_handle_ptk_1_of_4() ifindex=5
+Jan 08 15:30:57 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:30:58 host iwd[1927]: src/eapol.c:eapol_handle_ptk_3_of_4() ifindex=5
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:30:58 host iwd[1927]: src/station.c:station_handshake_event() Setting keys
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_set_tk() 5
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_set_rekey_offload() 5
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
+Jan 08 15:30:58 host iwd[1927]: src/station.c:station_reassociate_cb() 5, result: 0
+Jan 08 15:30:58 host iwd[1927]: src/station.c:station_enter_state() Old State: roaming, new state: connected
+Jan 08 15:30:58 host iwd[1927]: src/wiphy.c:wiphy_radio_work_done() Work item 32 done
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_link_notify() event 16 on ifindex 5
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Frame TX Status(60)
+Jan 08 15:30:58 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Frame(59)
+Jan 08 15:30:58 host iwd[1927]: src/station.c:station_early_neighbor_report_cb() ifindex: 5, error: 0()
+Jan 08 15:31:03 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Notify CQM(64)
+Jan 08 15:40:13 host iwd[1927]: src/netdev.c:netdev_unicast_notify() Unicast notification Control Port Frame(129)
+Jan 08 15:40:13 host iwd[1927]: src/netdev.c:netdev_control_port_frame_event()
+Jan 08 15:40:13 host iwd[1927]: src/eapol.c:eapol_handle_gtk_1_of_2() ifindex=5
+Jan 08 15:40:13 host iwd[1927]: src/netdev.c:netdev_set_gtk() 5
+Jan 08 15:40:13 host iwd[1927]: src/netdev.c:netdev_set_igtk() 5
+Jan 08 15:40:13 host iwd[1927]: src/netdev.c:netdev_mlme_notify() MLME notification Control Port TX Status(139)
