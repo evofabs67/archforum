@@ -1,0 +1,1714 @@
+Jan 08 10:45:38 host systemd[1]: Started WPA supplicant daemon (interface-specific version).
+Jan 08 10:45:38 host wpa_supplicant[620]: Successfully initialized wpa_supplicant
+Jan 08 10:45:38 host wpa_supplicant[620]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=WORLD
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: SME: Trying to authenticate with 5c:49:79:41:04:5c (SSID='XYZ-12345' freq=5180 MHz)
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=CH
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: Trying to associate with 5c:49:79:41:04:5c (SSID='XYZ-12345' freq=5180 MHz)
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: Associated with 5c:49:79:41:04:5c
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: WPA: Key negotiation completed with 5c:49:79:41:04:5c [PTK=CCMP GTK=CCMP]
+Jan 08 10:45:42 host wpa_supplicant[620]: wlan0: CTRL-EVENT-CONNECTED - Connection to 5c:49:79:41:04:5c completed [id=0 id_str=]
+Jan 08 10:46:56 host systemd[1]: Stopping WPA supplicant daemon (interface-specific version)...
+Jan 08 10:46:56 host wpa_supplicant[620]: nl80211: deinit ifname=p2p-dev-wlan0 disabled_11b_rates=0
+Jan 08 10:46:56 host wpa_supplicant[620]: p2p-dev-wlan0: CTRL-EVENT-TERMINATING
+Jan 08 10:46:56 host wpa_supplicant[620]: wlan0: CTRL-EVENT-DISCONNECTED bssid=5c:49:79:41:04:5c reason=3 locally_generated=1
+Jan 08 10:46:56 host wpa_supplicant[620]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Jan 08 10:46:56 host wpa_supplicant[620]: wlan0: CTRL-EVENT-TERMINATING
+Jan 08 10:46:56 host systemd[1]: wpa_supplicant@wlan0.service: Deactivated successfully.
+Jan 08 10:46:56 host systemd[1]: Stopped WPA supplicant daemon (interface-specific version).
+Jan 08 10:47:21 host systemd[1]: Started WPA supplicant daemon (interface-specific version).
+Jan 08 10:47:21 host wpa_supplicant[1537]: Successfully initialized wpa_supplicant
+Jan 08 10:47:22 host wpa_supplicant[1537]: wlan0: SME: Trying to authenticate with 5c:49:79:41:04:5c (SSID='XYZ-12345' freq=5180 MHz)
+Jan 08 10:47:22 host wpa_supplicant[1537]: wlan0: Trying to associate with 5c:49:79:41:04:5c (SSID='XYZ-12345' freq=5180 MHz)
+Jan 08 10:47:22 host wpa_supplicant[1537]: wlan0: Associated with 5c:49:79:41:04:5c
+Jan 08 10:47:22 host wpa_supplicant[1537]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan 08 10:47:22 host wpa_supplicant[1537]: wlan0: WPA: Key negotiation completed with 5c:49:79:41:04:5c [PTK=CCMP GTK=CCMP]
+Jan 08 10:47:22 host wpa_supplicant[1537]: wlan0: CTRL-EVENT-CONNECTED - Connection to 5c:49:79:41:04:5c completed [id=0 id_str=]
+Jan 08 10:49:57 host systemd[1]: wpa_supplicant@wlan0.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Jan 08 10:50:11 host wpa_supplicant[1537]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 10:50:13 host systemd[1]: Stopping WPA supplicant daemon (interface-specific version)...
+Jan 08 10:50:13 host wpa_supplicant[1537]: nl80211: deinit ifname=p2p-dev-wlan0 disabled_11b_rates=0
+Jan 08 10:50:13 host wpa_supplicant[1537]: p2p-dev-wlan0: CTRL-EVENT-TERMINATING
+Jan 08 10:50:13 host wpa_supplicant[1537]: wlan0: CTRL-EVENT-DISCONNECTED bssid=5c:49:79:41:04:5c reason=3 locally_generated=1
+Jan 08 10:50:13 host wpa_supplicant[1537]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Jan 08 10:50:13 host wpa_supplicant[1537]: wlan0: CTRL-EVENT-TERMINATING
+Jan 08 10:50:13 host systemd[1]: wpa_supplicant@wlan0.service: Deactivated successfully.
+Jan 08 10:50:13 host systemd[1]: Stopped WPA supplicant daemon (interface-specific version).
+Jan 08 10:50:58 host systemd[1]: Started WPA supplicant daemon (interface-specific version).
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_supplicant v2.9
+Jan 08 10:50:58 host wpa_supplicant[2070]: Successfully initialized wpa_supplicant
+Jan 08 10:50:58 host wpa_supplicant[2070]: Initializing interface 'wlan0' conf '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Jan 08 10:50:58 host wpa_supplicant[2070]: Configuration file '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf' -> '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf'
+Jan 08 10:50:58 host wpa_supplicant[2070]: Reading configuration file '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf'
+Jan 08 10:50:58 host wpa_supplicant[2070]: ctrl_interface='DIR=/var/run/wpa_supplicant GROUP=wheel'
+Jan 08 10:50:58 host wpa_supplicant[2070]: update_config=1
+Jan 08 10:50:58 host wpa_supplicant[2070]: ap_scan=1
+Jan 08 10:50:58 host wpa_supplicant[2070]: country='CH'
+Jan 08 10:50:58 host wpa_supplicant[2070]: Priority group 0
+Jan 08 10:50:58 host wpa_supplicant[2070]:    id=0 ssid='XYZ-12345'
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: TDLS supported
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: TDLS external setup
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:1
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:5
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:2
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:4
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:8
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:9
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:6
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:11
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:12
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Using driver-based off-channel TX
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Driver-advertised extended capabilities (default) - hexdump(len=8): 04 00 00 00 00 00 00 40
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Driver-advertised extended capabilities mask (default) - hexdump(len=8): 04 00 00 00 00 00 00 40
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Use separate P2P group interface (driver advertised support)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Enable multi-channel concurrent (driver advertised support)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: use P2P_DEVICE support
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: interface wlan0 in phy phy0
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Set mode ifindex 2 iftype 2 (STATION)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Subscribe to mgmt frames with non-AP handle 0x55c3348b8ea0
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0104
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=040a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=040b
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=040c
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=040d
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=090a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=090b
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=090c
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=090d
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0409506f9a09
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=7f506f9a09
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0409506f9a1a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0801
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=040e
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=12
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=06
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0a07
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0a11
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0a1a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=1101
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=1102
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0505
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0500
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348b8ea0 match=0502
+Jan 08 10:50:58 host wpa_supplicant[2070]: rfkill: initial event: idx=1 type=1 op=0 soft=0 hard=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+Jan 08 10:50:58 host wpa_supplicant[2070]: Add interface wlan0 to a new radio phy0
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Regulatory information - country=CH
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 2402-2437 @ 40 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 2422-2462 @ 40 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 2447-2482 @ 40 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5170-5190 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5190-5210 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5210-5230 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5230-5250 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5250-5270 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5270-5290 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5290-5310 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5310-5330 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5490-5510 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5510-5530 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5530-5550 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5550-5570 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5570-5590 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5590-5610 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5610-5630 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5630-5650 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5650-5670 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5670-5690 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5690-5710 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5710-5730 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5735-5755 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5755-5775 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5775-5795 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5795-5815 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5815-5835 @ 20 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Added 802.11b mode based on 802.11g information
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484[DISABLED]
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200[NO_IR] 5220[NO_IR] 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5340[DISABLED] 5360[DISABLED] 5380[DISABLED] 5400[DISABLED] 5420[DISABLED]
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484[DISABLED]
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Own MAC address: b4:6b:fc:6b:5a:76
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=4 set_tx=0 seq_len=0 key_len=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=5 set_tx=0 seq_len=0 key_len=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: RSN: flushing PMKID list in the driver
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Flush PMKIDs
+Jan 08 10:50:58 host wpa_supplicant[2070]: TDLS: TDLS operation supported by driver
+Jan 08 10:50:58 host wpa_supplicant[2070]: TDLS: Driver uses external link setup
+Jan 08 10:50:58 host wpa_supplicant[2070]: TDLS: Driver does not support TDLS channel switching
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: WPS: UUID based on MAC address: c4edd8dc-736f-52fa-aa7f-2d40b91a1fd1
+Jan 08 10:50:58 host wpa_supplicant[2070]: ENGINE: Loading builtin engines
+Jan 08 10:50:58 host wpa_supplicant[2070]: ENGINE: Loading builtin engines
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: SUPP_PAE entering state DISCONNECTED
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: Supplicant port status: Unauthorized
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Skip set_supp_port(unauthorized) while not associated
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: SUPP_BE entering state INITIALIZE
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAP: EAP entering state DISABLED
+Jan 08 10:50:58 host wpa_supplicant[2070]: ctrl_interface_group=998 (from group name 'wheel')
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Added interface wlan0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: State: DISCONNECTED -> DISCONNECTED
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+Jan 08 10:50:58 host wpa_supplicant[2070]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Create interface iftype 10 (P2P_DEVICE)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: New P2P Device interface p2p-dev-wlan0 (0x4) created
+Jan 08 10:50:58 host wpa_supplicant[2070]: Initializing interface 'p2p-dev-wlan0' conf '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf' driver 'nl80211' ctrl_interface 'DIR=/var/run/wpa_supplicant GROUP=wheel' bridge 'N/A'
+Jan 08 10:50:58 host wpa_supplicant[2070]: Configuration file '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf' -> '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf'
+Jan 08 10:50:58 host wpa_supplicant[2070]: Reading configuration file '/etc/wpa_supplicant/wpa_supplicant-wlan0.conf'
+Jan 08 10:50:58 host wpa_supplicant[2070]: ctrl_interface='DIR=/var/run/wpa_supplicant GROUP=wheel'
+Jan 08 10:50:58 host wpa_supplicant[2070]: update_config=1
+Jan 08 10:50:58 host wpa_supplicant[2070]: ap_scan=1
+Jan 08 10:50:58 host wpa_supplicant[2070]: country='CH'
+Jan 08 10:50:58 host wpa_supplicant[2070]: Priority group 0
+Jan 08 10:50:58 host wpa_supplicant[2070]:    id=0 ssid='XYZ-12345'
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: TDLS supported
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: TDLS external setup
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:1
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:5
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:2
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:4
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:8
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:9
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:6
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:11
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Supported cipher 00-0f-ac:12
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Using driver-based off-channel TX
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Driver-advertised extended capabilities (default) - hexdump(len=8): 04 00 00 00 00 00 00 40
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Driver-advertised extended capabilities mask (default) - hexdump(len=8): 04 00 00 00 00 00 00 40
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Use separate P2P group interface (driver advertised support)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Enable multi-channel concurrent (driver advertised support)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: use P2P_DEVICE support
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: interface p2p-dev-wlan0 in phy phy0
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Set mode ifindex 0 iftype 10 (P2P_DEVICE)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Failed to set interface 0 to mode 10: -22 (Invalid argument)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Subscribe to mgmt frames with non-AP handle 0x55c3348e9c90
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0104
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=040a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=040b
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=040c
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=040d
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=090a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=090b
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=090c
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=090d
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0409506f9a09
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=7f506f9a09
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0409506f9a1a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0801
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=040e
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=12
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=06
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0a07
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0a11
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0a1a
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=1101
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=1102
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0505
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0500
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55c3348e9c90 match=0502
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Use (wlan0) to initialize P2P Device rfkill
+Jan 08 10:50:58 host wpa_supplicant[2070]: rfkill: initial event: idx=1 type=1 op=0 soft=0 hard=0
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Start P2P Device p2p-dev-wlan0 (0x4): Success
+Jan 08 10:50:58 host wpa_supplicant[2070]: Add interface p2p-dev-wlan0 to existing radio phy0
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Regulatory information - country=CH
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 2402-2437 @ 40 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 2422-2462 @ 40 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 2447-2482 @ 40 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5170-5190 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5190-5210 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5210-5230 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5230-5250 @ 160 MHz 22 mBm (no outdoor) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5250-5270 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5270-5290 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5290-5310 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5310-5330 @ 160 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5490-5510 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5510-5530 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5530-5550 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5550-5570 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5570-5590 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5590-5610 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5610-5630 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5630-5650 @ 240 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5650-5670 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5670-5690 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5690-5710 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5710-5730 @ 80 MHz 22 mBm (DFS) (no IR)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5735-5755 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5755-5775 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5775-5795 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5795-5815 @ 80 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: 5815-5835 @ 20 MHz 22 mBm
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Added 802.11b mode based on 802.11g information
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484[DISABLED]
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200[NO_IR] 5220[NO_IR] 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5340[DISABLED] 5360[DISABLED] 5380[DISABLED] 5400[DISABLED] 5420[DISABLED]
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484[DISABLED]
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: Own MAC address: b4:6b:fc:6b:5a:77
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: RSN: flushing PMKID list in the driver
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Flush PMKIDs
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: State: DISCONNECTED -> INACTIVE
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: WPS: UUID from the first interface: c4edd8dc-736f-52fa-aa7f-2d40b91a1fd1
+Jan 08 10:50:58 host wpa_supplicant[2070]: ENGINE: Loading builtin engines
+Jan 08 10:50:58 host wpa_supplicant[2070]: ENGINE: Loading builtin engines
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: SUPP_PAE entering state DISCONNECTED
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: Supplicant port status: Unauthorized
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Skip set_supp_port(unauthorized) while not associated
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAPOL: SUPP_BE entering state INITIALIZE
+Jan 08 10:50:58 host wpa_supplicant[2070]: EAP: EAP entering state DISABLED
+Jan 08 10:50:58 host wpa_supplicant[2070]: Using existing control interface directory.
+Jan 08 10:50:58 host wpa_supplicant[2070]: ctrl_interface_group=998 (from group name 'wheel')
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Own listen channel: 81:11
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Random operating channel: 81:6
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: initialized
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: Added interface p2p-dev-wlan0
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: State: INACTIVE -> DISCONNECTED
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Set p2p-dev-wlan0 operstate 0->0 (DORMANT)
+Jan 08 10:50:58 host wpa_supplicant[2070]: netlink: Operstate: ifindex=0 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:50:58 host wpa_supplicant[2070]: p2p-dev-wlan0: Shared frequencies (len=0): completed iteration
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:50:58 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Starting delayed sched scan
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Use normal scan instead of sched_scan for initial scans (normal_scans=0)
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Setting scan request: 0.000000 sec
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: State: DISCONNECTED -> SCANNING
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=0): completed iteration
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Starting AP scan for wildcard SSID
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS: Building WPS IE for Probe Request
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Version (hardcoded 0x10)
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Request Type
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Config Methods (3148)
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * UUID-E
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Primary Device Type
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * RF Bands (3)
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Association State
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Configuration Error (0)
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Device Password ID (0)
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Manufacturer
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Model Name
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Model Number
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Device Name
+Jan 08 10:50:58 host wpa_supplicant[2070]: WPS:  * Version2 (0x20)
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: * P2P IE header
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: * Capability dev=25 group=00
+Jan 08 10:50:58 host wpa_supplicant[2070]: P2P: * Listen Channel: Regulatory Class 81 Channel 11
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Add radio work 'scan'@0x55c3348f5ee0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: First radio work item in the queue - schedule start immediately
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Starting radio work 'scan'@0x55c3348f5ee0 after 0.000023 second wait
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: nl80211: scan request
+Jan 08 10:50:58 host wpa_supplicant[2070]: Scan requested (ret=0) - scan timeout 10 seconds
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Ignored event 33 (NL80211_CMD_TRIGGER_SCAN) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:50:58 host wpa_supplicant[2070]: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: nl80211: Scan trigger
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Event SCAN_STARTED (47) received
+Jan 08 10:50:58 host wpa_supplicant[2070]: wlan0: Own scan request started a scan in 0.000097 seconds
+Jan 08 10:50:59 host wpa_supplicant[2070]: EAPOL: disable timer tick
+Jan 08 10:50:59 host wpa_supplicant[2070]: EAPOL: disable timer tick
+Jan 08 10:51:00 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Ignored event 34 (NL80211_CMD_NEW_SCAN_RESULTS) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: nl80211: New scan results available
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Scan probed for SSID ''
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Event SCAN_RESULTS (3) received
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Scan completed in 2.064371 seconds
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Received scan results (3 BSSes)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: BSS: Start scan result update 1
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: BSS: Add new id 0 BSSID 5c:49:79:41:04:5c SSID 'XYZ-12345' freq 5180
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: BSS: Add new id 1 BSSID 5c:49:79:41:04:5b SSID 'XYZ-12345' freq 2412
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: BSS: Add new id 2 BSSID a0:b5:49:0e:75:a8 SSID 'XYZ-12345' freq 2472
+Jan 08 10:51:00 host wpa_supplicant[2070]: BSS: last_scan_res_used=3/32
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: New scan results available (own=1 ext=0)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Radio work 'scan'@0x55c3348f5ee0 done in 2.068001 seconds
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: radio_work_free('scan'@0x55c3348f5ee0): num_active_works --> 0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Selecting BSS from priority group 0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: 0: 5c:49:79:41:04:5c ssid='XYZ-12345' wpa_ie_len=0 rsn_ie_len=24 caps=0x1511 level=-72 freq=5180
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:    selected based on RSN IE
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:    selected BSS 5c:49:79:41:04:5c ssid='XYZ-12345'
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Considering connect request: reassociate: 0  selected: 5c:49:79:41:04:5c  bssid: 00:00:00:00:00:00  pending: 00:00:00:00:00:00  wpa_state: SCANNING  ssid=0x55c3348b9450  current_ssid=(nil)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Request association with 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: TDLS: TDLS is allowed in the target BSS
+Jan 08 10:51:00 host wpa_supplicant[2070]: TDLS: TDLS channel switch allowed in the target BSS
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: No ongoing scan/p2p-scan found to abort
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Add radio work 'sme-connect'@0x55c3348f5ee0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: First radio work item in the queue - schedule start immediately
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: Ignored PMKID candidate without preauth flag
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: Ignored PMKID candidate without preauth flag
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: Ignored PMKID candidate without preauth flag
+Jan 08 10:51:00 host wpa_supplicant[2070]: p2p-dev-wlan0: Updating scan results from sibling
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Received scan results (3 BSSes)
+Jan 08 10:51:00 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Start scan result update 1
+Jan 08 10:51:00 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Add new id 0 BSSID 5c:49:79:41:04:5c SSID 'XYZ-12345' freq 5180
+Jan 08 10:51:00 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Add new id 1 BSSID 5c:49:79:41:04:5b SSID 'XYZ-12345' freq 2412
+Jan 08 10:51:00 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Add new id 2 BSSID a0:b5:49:0e:75:a8 SSID 'XYZ-12345' freq 2472
+Jan 08 10:51:00 host wpa_supplicant[2070]: BSS: last_scan_res_used=3/32
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Starting radio work 'sme-connect'@0x55c3348f5ee0 after 0.000311 second wait
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: clearing own WPA/RSN IE
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Automatic auth_alg selection: 0x1
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: PMKSA cache search - network_ctx=(nil) try_opportunistic=0 akmp=0x0
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: Search for BSSID 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: No PMKSA cache entry found
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: RSN: using IEEE 802.11i/D9.0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Selected cipher suites: group 16 pairwise 16 key_mgmt 1026 proto 2
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Selected mgmt group cipher 32
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: clearing AP WPA IE
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: set AP RSN IE - hexdump(len=26): 30 18 01 00 00 0f ac 04 01 00 00 0f ac 04 02 00 00 0f ac 02 00 0f ac 08 80 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: AP group 0x10 network profile group 0x18; available group 0x10
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: using GTK CCMP
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: AP pairwise 0x10 network profile pairwise 0x18; available pairwise 0x10
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: using PTK CCMP
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: AP key_mgmt 0x402 network profile key_mgmt 0x3; available key_mgmt 0x2
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: using KEY_MGMT WPA-PSK
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: AP mgmt_group_cipher 0x20 network profile mgmt_group_cipher 0x0; available mgmt_group_cipher 0x0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: not using MGMT group cipher
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Set own WPA IE default - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Set PMK based on external data - hexdump(len=32): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: FT: Stored MDIE and FTIE from (Re)Association Response - hexdump(len=0):
+Jan 08 10:51:00 host wpa_supplicant[2070]: RRM: Determining whether RRM can be used - device support: 0x19
+Jan 08 10:51:00 host wpa_supplicant[2070]: RRM: Adding RRM IE to Association Request
+Jan 08 10:51:00 host wpa_supplicant[2070]: Added supported operating classes IE - hexdump(len=19): 3b 11 73 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - EAP success=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - EAP fail=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portControl=Auto
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Cancelling scan request
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: SME: Trying to authenticate with 5c:49:79:41:04:5c (SSID='XYZ-12345' freq=5180 MHz)
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portValid=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: SCANNING -> AUTHENTICATING
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=0): completed iteration
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:51:00 host wpa_supplicant[2070]: Not configuring frame filtering - BSS 00:00:00:00:00:00 is not a Hotspot 2.0 network
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Authenticate (ifindex=2)
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * bssid=5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * freq=5180
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * SSID=XYZ-12345
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * IEs - hexdump(len=0): [NULL]
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * Auth Type 0
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Authentication request send successfully
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Ignored event 19 (NL80211_CMD_NEW_STATION) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlan0
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: New station 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Ignored event 37 (NL80211_CMD_AUTHENTICATE) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Drv Event 37 (NL80211_CMD_AUTHENTICATE) received for wlan0
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Authenticate event
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Event AUTH (10) received
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: SME: Authentication response: peer=5c:49:79:41:04:5c auth_type=0 auth_transaction=2 status_code=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: SME: Association Request IEs - hexdump(len=58): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 04 00 00 00 01 00 00 40 46 05 71 00 00 00 00 3b 11 73 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Trying to associate with 5c:49:79:41:04:5c (SSID='XYZ-12345' freq=5180 MHz)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: AUTHENTICATING -> ASSOCIATING
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+Jan 08 10:51:00 host wpa_supplicant[2070]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=0): completed iteration
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: set own WPA/RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Associate (ifindex=2)
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * bssid=5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * freq=5180
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * SSID=XYZ-12345
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * IEs - hexdump(len=58): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 04 00 00 00 01 00 00 40 46 05 71 00 00 00 00 3b 11 73 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * WPA Versions 0x2
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * pairwise=0xfac04
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * group=0xfac04
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * akm=0xfac02
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * htcaps - hexdump(len=26): 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * htcaps_mask - hexdump(len=26): 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * vhtcaps - hexdump(len=12): 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   * vhtcaps_mask - hexdump(len=12): 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Association request send successfully
+Jan 08 10:51:00 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+Jan 08 10:51:00 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+Jan 08 10:51:00 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+Jan 08 10:51:00 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 operstate=5 linkmode=1 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Ignored event 38 (NL80211_CMD_ASSOCIATE) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Drv Event 38 (NL80211_CMD_ASSOCIATE) received for wlan0
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Associate event
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Associated on 5180 MHz
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Associated with 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Set drv->ssid based on scan res info to 'XYZ-12345'
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Event ASSOC (0) received
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Association info event
+Jan 08 10:51:00 host wpa_supplicant[2070]: req_ies - hexdump(len=210): 00 09 5a 47 5a 2d 32 34 37 37 31 01 08 0c 12 18 24 30 48 60 6c 21 02 00 16 24 4a 24 01 28 01 2c 01 30 01 34 01 38 01 3c 01 40 01 44 01 48 01 4c 01 50 01 54 01 58 01 5c 01 60 01 64 01 68 01 6c 01 70 01 74 01 78 01 7c 01 80 01 84 01 88 01 8c 01 90 01 95 01 99 01 9d 01 a1 01 a5 01 a9 01 ad 01 b1 01 b5 01 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 2d 1a e7 19 17 ff ff 00 00 00 00 00 00 00 00 2c 01 01 00 00 00 00 00 00 00 00 00 00 7f 08 04 00 00 00 01 00 00 40 bf 0c f6 01 80 03 fa ff 00 00 fa ff 00 20 46 05 71 00 00 00 00 3b 11 73 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f dd 07 00 50 f2 02 00 01 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: resp_ies - hexdump(len=152): 01 08 8c 12 98 24 b0 48 60 6c 46 05 73 d0 00 00 0c 2d 1a ef 09 1b ff ff ff 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 24 05 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4a 0e 14 00 0a 00 2c 01 c8 00 14 00 05 00 19 00 7f 08 05 00 0f 00 00 00 00 40 bf 0c b2 01 80 33 fa ff 00 00 ea ff 00 00 c0 05 01 2a 00 fc ff dd 18 00 50 f2 02 01 01 00 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00 dd 08 8c fd f0 01 01 02 01 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: freq=5180 MHz
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: set own WPA/RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: FT: Stored MDIE and FTIE from (Re)Association Response - hexdump(len=0):
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: ASSOCIATING -> ASSOCIATED
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+Jan 08 10:51:00 host wpa_supplicant[2070]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Associated to a new BSS: BSSID=5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Associated with 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Association event - clear replay counter
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Clear old PTK
+Jan 08 10:51:00 host wpa_supplicant[2070]: TDLS: Remove peers on association
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portEnabled=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portValid=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - EAP success=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portEnabled=1
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: SUPP_PAE entering state CONNECTING
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: enable timer tick
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: SUPP_BE entering state IDLE
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Setting authentication timeout: 10 sec 0 usec
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Cancelling scan request
+Jan 08 10:51:00 host wpa_supplicant[2070]: WMM AC: AC mandatory: AC_BE=0 AC_BK=0 AC_VI=0 AC_VO=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: WMM AC: U-APSD queues=0x0
+Jan 08 10:51:00 host wpa_supplicant[2070]: WMM AC: Valid WMM association, WMM AC is enabled
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Ignored event 46 (NL80211_CMD_CONNECT) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Drv Event 46 (NL80211_CMD_CONNECT) received for wlan0
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Ignore connect event (cmd=46) when using userspace SME
+Jan 08 10:51:00 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=99
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Setting authentication timeout: 10 sec 0 usec
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=95
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:   key_info 0x8a (ver=2 keyidx=0 rsvd=0 Pairwise Ack)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:   key_length=16 key_data_length=0
+Jan 08 10:51:00 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): b6 8f 60 0c d2 1d 41 5f 03 cb 18 5a 71 ee 53 b5 c7 5f 0d 68 80 13 f6 09 d6 1c 8d e1 0b 03 74 20
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: ASSOCIATED -> 4WAY_HANDSHAKE
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of 4-Way Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: msg 1/4 key data - hexdump(len=0):
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Renewed SNonce - hexdump(len=32): 05 0d 1d 4b 2f 5a 74 32 ef df cd 09 8e 3b a9 7c 88 d6 86 34 43 f8 1a 0a db c0 d7 64 6e 26 da ad
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: PTK derivation using PRF(SHA1)
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: PTK derivation - A1=b4:6b:fc:6b:5a:76 A2=5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Nonce1 - hexdump(len=32): 05 0d 1d 4b 2f 5a 74 32 ef df cd 09 8e 3b a9 7c 88 d6 86 34 43 f8 1a 0a db c0 d7 64 6e 26 da ad
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Nonce2 - hexdump(len=32): b6 8f 60 0c d2 1d 41 5f 03 cb 18 5a 71 ee 53 b5 c7 5f 0d 68 80 13 f6 09 d6 1c 8d e1 0b 03 74 20
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: PMK - hexdump(len=32): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: PTK - hexdump(len=48): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: KEK - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: TK - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: WPA IE for msg 2/4 - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/4
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): d0 68 b7 a6 55 f9 a6 58 3e cd 4a f6 20 fb c3 3b
+Jan 08 10:51:00 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=163
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=159
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:   key_info 0x13ca (ver=2 keyidx=0 rsvd=0 Pairwise Install Ack MIC Secure Encr)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0:   key_length=16 key_data_length=64
+Jan 08 10:51:00 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): b6 8f 60 0c d2 1d 41 5f 03 cb 18 5a 71 ee 53 b5 c7 5f 0d 68 80 13 f6 09 d6 1c 8d e1 0b 03 74 20
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 68 ae a6 0f 43 98 65 17 d5 7f 47 92 f8 7b d0 2a
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=64): 37 d5 5f 5e a8 ca 11 67 0f c8 df c2 c8 d3 2b d4 8f d9 d7 76 32 d8 2f 55 60 03 85 2a b7 54 9b 47 db 90 ec 9d f2 e2 ff cc e4 1c cb dc 04 58 77 b7 69 0a 7c 54 7b cb 10 b3 e6 41 65 02 fe 4d d3 cd
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=56): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: 4WAY_HANDSHAKE -> 4WAY_HANDSHAKE
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: RX message 3 of 4-Way Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: IE KeyData - hexdump(len=56): 30 18 01 00 00 0f ac 04 01 00 00 0f ac 04 02 00 00 0f ac 02 00 0f ac 08 80 00 dd 16 00 0f ac 01 02 00 42 4f 08 91 cd 3e 1f 78 87 8b 54 b2 7d fc 95 9d dd 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: RSN IE in EAPOL-Key - hexdump(len=26): 30 18 01 00 00 0f ac 04 01 00 00 0f ac 04 02 00 00 0f ac 02 00 0f ac 08 80 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 4/4
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): f4 11 6d 14 3c 70 78 93 59 88 bc 3d a6 cf 0b e1
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Installing PTK to the driver
+Jan 08 10:51:00 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c3348b9f78 key_idx=0 set_tx=1 seq_len=6 key_len=16
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:    addr=5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portValid=1
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: 4WAY_HANDSHAKE -> GROUP_HANDSHAKE
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:51:00 host wpa_supplicant[2070]: RSN: received GTK in pairwise handshake - hexdump(len=18): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 10:51:00 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 10:51:00 host wpa_supplicant[2070]:    broadcast key
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: WPA: Key negotiation completed with 5c:49:79:41:04:5c [PTK=CCMP GTK=CCMP]
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Radio work 'sme-connect'@0x55c3348f5ee0 done in 0.157824 seconds
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: radio_work_free('sme-connect'@0x55c3348f5ee0): num_active_works --> 0
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: CTRL-EVENT-CONNECTED - Connection to 5c:49:79:41:04:5c completed [id=0 id_str=]
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Set wlan0 operstate 0->1 (UP)
+Jan 08 10:51:00 host wpa_supplicant[2070]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=6 (IF_OPER_UP)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 10:51:00 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 10:51:00 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - portValid=1
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: External notification - EAP success=1
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: SUPP_PAE entering state AUTHENTICATING
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: SUPP_BE entering state SUCCESS
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAP: EAP entering state DISABLED
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: SUPP_PAE entering state AUTHENTICATED
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: Supplicant port status: Authorized
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Set supplicant port authorized for 5c:49:79:41:04:5c
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL: SUPP_BE entering state IDLE
+Jan 08 10:51:00 host wpa_supplicant[2070]: EAPOL authentication completed - result=SUCCESS
+Jan 08 10:51:00 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 10:51:00 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 operstate=6 linkmode=1 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+Jan 08 10:51:02 host wpa_supplicant[2070]: EAPOL: startWhen --> 0
+Jan 08 10:51:02 host wpa_supplicant[2070]: EAPOL: disable timer tick
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan0
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: RX frame da=b4:6b:fc:6b:5a:76 sa=5c:49:79:41:04:5c bssid=5c:49:79:41:04:5c freq=5180 ssi_signal=-69 fc=0xd0 seq_ctrl=0x1030 stype=13 (WLAN_FC_STYPE_ACTION) len=65
+Jan 08 10:52:05 host wpa_supplicant[2070]: wlan0: Event RX_MGMT (18) received
+Jan 08 10:52:05 host wpa_supplicant[2070]: wlan0: Received Action frame: SA=5c:49:79:41:04:5c Category=5 DataLen=40 freq=5180 MHz
+Jan 08 10:52:05 host wpa_supplicant[2070]: Measurement request type 5 token 2
+Jan 08 10:52:05 host wpa_supplicant[2070]: Beacon request: No valid channels
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: Send Action frame (ifindex=2, freq=5180 MHz wait=0 ms no_cck=0)
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: Ignored event 60 (NL80211_CMD_FRAME_TX_STATUS) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan0
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: Frame TX status event
+Jan 08 10:52:05 host wpa_supplicant[2070]: nl80211: Action TX status: cookie=0x1 (match) (ack=1)
+Jan 08 10:52:05 host wpa_supplicant[2070]: wlan0: Event TX_STATUS (16) received
+Jan 08 10:52:05 host wpa_supplicant[2070]: wlan0: EVENT_TX_STATUS dst=5c:49:79:41:04:5c type=0 stype=13
+Jan 08 10:52:05 host wpa_supplicant[2070]: Off-channel: Ignore Action TX status - no pending operation
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan0
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: RX frame da=b4:6b:fc:6b:5a:76 sa=5c:49:79:41:04:5c bssid=5c:49:79:41:04:5c freq=5180 ssi_signal=-69 fc=0xd0 seq_ctrl=0x1040 stype=13 (WLAN_FC_STYPE_ACTION) len=65
+Jan 08 10:52:06 host wpa_supplicant[2070]: wlan0: Event RX_MGMT (18) received
+Jan 08 10:52:06 host wpa_supplicant[2070]: wlan0: Received Action frame: SA=5c:49:79:41:04:5c Category=5 DataLen=40 freq=5180 MHz
+Jan 08 10:52:06 host wpa_supplicant[2070]: Measurement request type 5 token 3
+Jan 08 10:52:06 host wpa_supplicant[2070]: Beacon request: No valid channels
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: Send Action frame (ifindex=2, freq=5180 MHz wait=0 ms no_cck=0)
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: Ignored event 60 (NL80211_CMD_FRAME_TX_STATUS) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan0
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: Frame TX status event
+Jan 08 10:52:06 host wpa_supplicant[2070]: nl80211: Action TX status: cookie=0x2 (match) (ack=1)
+Jan 08 10:52:06 host wpa_supplicant[2070]: wlan0: Event TX_STATUS (16) received
+Jan 08 10:52:06 host wpa_supplicant[2070]: wlan0: EVENT_TX_STATUS dst=5c:49:79:41:04:5c type=0 stype=13
+Jan 08 10:52:06 host wpa_supplicant[2070]: Off-channel: Ignore Action TX status - no pending operation
+Jan 08 10:54:08 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Remove id 0 BSSID 5c:49:79:41:04:5c SSID 'XYZ-12345' due to wpa_bss_flush_by_age
+Jan 08 10:54:08 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Remove id 1 BSSID 5c:49:79:41:04:5b SSID 'XYZ-12345' due to wpa_bss_flush_by_age
+Jan 08 10:54:08 host wpa_supplicant[2070]: p2p-dev-wlan0: BSS: Remove id 2 BSSID a0:b5:49:0e:75:a8 SSID 'XYZ-12345' due to wpa_bss_flush_by_age
+Jan 08 10:54:08 host wpa_supplicant[2070]: wlan0: BSS: Remove id 1 BSSID 5c:49:79:41:04:5b SSID 'XYZ-12345' due to wpa_bss_flush_by_age
+Jan 08 10:54:08 host wpa_supplicant[2070]: wlan0: BSS: Remove id 2 BSSID a0:b5:49:0e:75:a8 SSID 'XYZ-12345' due to wpa_bss_flush_by_age
+Jan 08 11:00:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 11:00:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 03
+Jan 08 11:00:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:00:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:00:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:00:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:00:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 6c 3e 01 b0 ff e6 bf 79 87 8d fb 4c d0 ef 19 5e
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:00:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): ff 22 ce 0b 63 8a ff 7b 96 1e 4e ef 2d 4e 42 ad f0 2a 24 28 14 07 0f 94 9e 59 3c ac e0 86 76 48
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 11:00:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:00:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 11:00:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:00:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 11:00:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 8d 9b f7 38 38 a6 42 c3 39 56 ec 36 06 f5 d5 56
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:00:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:00:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:00:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 11:10:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 11:10:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 04
+Jan 08 11:10:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:10:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:10:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:10:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:10:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 8c 1c 92 c4 bd ef f5 8c 5f 26 0c 11 83 c3 63 10
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:10:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 2a 79 79 6b 81 09 0c fb bd 8d a8 22 de 65 a4 29 93 42 d4 97 e4 9c 86 14 49 06 e6 44 d1 68 f5 18
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 11:10:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:10:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 11:10:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:10:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 11:10:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 01 01 29 38 57 8d c1 a2 ec d2 18 9e 9e 86 98 76
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:10:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:10:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:10:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 11:20:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 11:20:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 05
+Jan 08 11:20:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:20:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:20:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:20:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:20:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 44 06 44 8b db 8f 96 12 ce 41 5f ce 2e b7 03 10
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:20:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): fd f3 03 74 36 c7 ef 69 a9 4a 53 37 51 da 2a ea 78 b4 db 1c fd 1b 3e 6a e1 78 73 e7 e3 5d 2c 2d
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 11:20:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:20:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 11:20:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:20:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 11:20:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 64 f2 32 96 10 2b de 0d 02 02 6e 1a ec 13 cb af
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:20:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:20:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:20:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 11:30:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 11:30:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 06
+Jan 08 11:30:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:30:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:30:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:30:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:30:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 58 1d 33 2f cb ab db f8 8c 82 cc 94 92 ae b5 aa
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:30:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): af 92 08 f5 3a da 17 d1 35 26 88 fa 0f 53 8f f2 85 84 e9 94 a5 93 1b c9 28 15 99 54 ba 91 95 68
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 11:30:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:30:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 11:30:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:30:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 11:30:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): be e4 99 fd e8 2c 38 ef 73 80 4b a8 ac c5 df ba
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:30:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:30:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:30:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan0
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: RX frame da=b4:6b:fc:6b:5a:76 sa=5c:49:79:41:04:5c bssid=5c:49:79:41:04:5c freq=5180 ssi_signal=-72 fc=0xd0 seq_ctrl=0x1050 stype=13 (WLAN_FC_STYPE_ACTION) len=65
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: Event RX_MGMT (18) received
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: Received Action frame: SA=5c:49:79:41:04:5c Category=5 DataLen=40 freq=5180 MHz
+Jan 08 11:31:13 host wpa_supplicant[2070]: Measurement request type 5 token 4
+Jan 08 11:31:13 host wpa_supplicant[2070]: Beacon request: No valid channels
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Send Action frame (ifindex=2, freq=5180 MHz wait=0 ms no_cck=0)
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Ignored event 60 (NL80211_CMD_FRAME_TX_STATUS) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan0
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Frame TX status event
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Action TX status: cookie=0x3 (match) (ack=1)
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: Event TX_STATUS (16) received
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: EVENT_TX_STATUS dst=5c:49:79:41:04:5c type=0 stype=13
+Jan 08 11:31:13 host wpa_supplicant[2070]: Off-channel: Ignore Action TX status - no pending operation
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan0
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: RX frame da=b4:6b:fc:6b:5a:76 sa=5c:49:79:41:04:5c bssid=5c:49:79:41:04:5c freq=5180 ssi_signal=-72 fc=0xd0 seq_ctrl=0x1060 stype=13 (WLAN_FC_STYPE_ACTION) len=65
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: Event RX_MGMT (18) received
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: Received Action frame: SA=5c:49:79:41:04:5c Category=5 DataLen=40 freq=5180 MHz
+Jan 08 11:31:13 host wpa_supplicant[2070]: Measurement request type 5 token 5
+Jan 08 11:31:13 host wpa_supplicant[2070]: Beacon request: No valid channels
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Send Action frame (ifindex=2, freq=5180 MHz wait=0 ms no_cck=0)
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Ignored event 60 (NL80211_CMD_FRAME_TX_STATUS) for foreign interface (ifindex 2 wdev 0x0)
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan0
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Frame TX status event
+Jan 08 11:31:13 host wpa_supplicant[2070]: nl80211: Action TX status: cookie=0x4 (match) (ack=1)
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: Event TX_STATUS (16) received
+Jan 08 11:31:13 host wpa_supplicant[2070]: wlan0: EVENT_TX_STATUS dst=5c:49:79:41:04:5c type=0 stype=13
+Jan 08 11:31:13 host wpa_supplicant[2070]: Off-channel: Ignore Action TX status - no pending operation
+Jan 08 11:40:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 11:40:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 07
+Jan 08 11:40:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:40:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:40:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:40:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:40:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 0e bb ab 58 2e f9 c3 7c 22 1a 46 8c b5 a7 59 88
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:40:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 63 26 cb ae 16 f9 33 44 86 56 80 f9 61 d5 7e b8 ad 39 80 15 55 d4 52 f3 e1 2c f6 79 e6 f4 28 4b
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 11:40:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:40:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 11:40:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:40:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 11:40:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 55 76 4a 8d 99 1e 61 4d 4a 8b 57 2c 50 77 41 cd
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:40:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:40:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:40:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 11:50:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 11:50:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 08
+Jan 08 11:50:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:50:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 11:50:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:50:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 11:50:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): a9 17 8b 62 82 34 84 d4 18 66 3d 68 42 0b a6 56
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:50:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): dc 94 fd 7c d2 ec 8d 91 0c 8c 34 6e e4 dd a9 73 b9 f0 9d 8c 15 22 e2 6e 32 3c 5e 61 ab 08 cf a9
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 11:50:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:50:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 11:50:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 11:50:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 11:50:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 2a fb 3c 37 6d cf 1b a9 eb a1 84 35 36 f8 b7 f9
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 11:50:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 11:50:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 11:50:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 12:00:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 12:00:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 09
+Jan 08 12:00:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:00:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:00:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:00:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:00:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): b7 9f b6 12 c1 9c 92 5b 43 f8 31 a1 1b 1e 04 f4
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:00:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 07 8f 06 b3 c0 c6 38 5a 93 2e 40 ed 60 0d cd 54 8b 68 05 c7 34 95 c0 ef f9 f6 84 45 45 2d 58 f4
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 12:00:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:00:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 12:00:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:00:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 12:00:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 08 8b 6e f6 07 ec ed 40 4b 67 7e 32 22 29 65 d1
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:00:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:00:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:00:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 12:10:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 12:10:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 0a
+Jan 08 12:10:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:10:11 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:10:11 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:10:11 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:10:11 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): c3 d2 aa ee e2 08 90 2c 27 80 15 e4 8a a5 e4 7c
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:10:11 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 88 56 2c 04 98 e6 e4 dd 3d 5e 20 e5 cc 14 de 23 9e ee 32 e4 b0 af f9 ae 33 b2 de da 80 66 b1 75
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 12:10:11 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:10:11 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 12:10:11 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:10:11 host wpa_supplicant[2070]:    broadcast key
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 12:10:11 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 34 d9 45 97 15 95 c8 d4 34 ad e9 44 2a dc d3 4d
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:10:11 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:10:11 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:10:11 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 12:20:11 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 12:20:11 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 12:20:11 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 12:20:11 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 12:20:11 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 12:20:11 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 12:20:11 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 0b
+Jan 08 12:20:11 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:20:12 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:20:12 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:20:12 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:20:12 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 5e bf a8 33 8e ad de d8 43 73 f0 c3 2d 6a 51 73
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:20:12 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 31 ed f4 e7 3a 31 20 d8 bc 0f 70 4d ee a4 e5 a2 c7 ad d7 e1 aa f3 37 55 46 d7 56 8a f4 36 e5 cd
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 12:20:12 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:20:12 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 12:20:12 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:20:12 host wpa_supplicant[2070]:    broadcast key
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 12:20:12 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 1e cb ba be 07 c5 10 ca 5d af a3 0f 4e 28 f6 ec
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:20:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:20:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:20:12 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 12:30:12 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 12:30:12 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 0c
+Jan 08 12:30:12 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:30:12 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:30:12 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:30:12 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:30:12 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): e4 5b a5 42 fd 85 ea 59 22 64 61 b4 8f 59 5a 35
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:30:12 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): fc 35 d1 9c c8 59 57 19 90 5f 37 08 0d 83 9d 1c 3c b9 e3 29 89 0c eb 83 83 cc dc fb c6 8d 85 00
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 12:30:12 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:30:12 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 12:30:12 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:30:12 host wpa_supplicant[2070]:    broadcast key
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 12:30:12 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): be 8c b0 e9 2c ce c4 fe 7f 27 51 84 76 85 f6 13
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:30:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:30:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:30:12 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 12:40:12 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 12:40:12 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 0d
+Jan 08 12:40:12 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:40:12 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:40:12 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:40:12 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:40:12 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 5b ce 4c 7c 6c c2 b4 66 44 b8 13 e7 71 e9 3c e9
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:40:12 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 73 e6 46 2e 0c 20 ac fd 95 04 c9 10 f5 1b 9a d2 5f af 87 10 60 60 49 0b 76 25 36 75 b8 33 76 d5
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 12:40:12 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:40:12 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 12:40:12 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:40:12 host wpa_supplicant[2070]:    broadcast key
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 12:40:12 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 33 50 8b 16 f4 1e d6 6d 9c 82 31 5a 78 98 8e d6
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:40:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:40:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:40:12 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 12:50:12 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 12:50:12 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 0e
+Jan 08 12:50:12 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:50:12 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 12:50:12 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:50:12 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 12:50:12 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): b1 76 6b 2a b7 5b 7d dc 29 8e a2 b2 ce c6 c4 5a
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:50:12 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 1d 07 f8 de a3 15 a6 de ca 28 e8 06 62 a9 13 c9 71 80 8a ff a7 95 a7 bc fa 11 34 cf 46 57 cf 10
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 12:50:12 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:50:12 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 12:50:12 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 12:50:12 host wpa_supplicant[2070]:    broadcast key
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 12:50:12 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): e6 83 51 2c 31 3a de 83 84 9f d3 9e 3b a5 bb cf
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 12:50:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 12:50:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 12:50:12 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 13:00:12 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 13:00:12 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 0f
+Jan 08 13:00:12 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 13:00:12 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 13:00:12 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 13:00:12 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 13:00:12 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): b2 f5 c4 6c da 52 4e 75 d7 a6 4f a8 a7 25 3b f3
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 13:00:12 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): 05 d3 d8 f7 bf f7 cf 77 40 26 38 81 33 42 78 e2 63 ea 01 b4 b8 e2 fc 65 d0 97 e9 35 0c bb c6 63
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 13:00:12 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 13:00:12 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=1 set_tx=0 seq_len=6 key_len=16
+Jan 08 13:00:12 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 13:00:12 host wpa_supplicant[2070]:    broadcast key
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 13:00:12 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 21 45 b5 5e 57 37 8a 05 4d 7d 07 08 1d 7a 74 ec
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 13:00:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 13:00:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 13:00:12 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 13:10:12 host wpa_supplicant[2070]: l2_packet_receive: src=5c:49:79:41:04:5c len=131
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: RX EAPOL from 5c:49:79:41:04:5c
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0:   EAPOL-Key type=2
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0:   key_length=0 key_data_length=32
+Jan 08 13:10:12 host wpa_supplicant[2070]:   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 10
+Jan 08 13:10:12 host wpa_supplicant[2070]:   key_nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 13:10:12 host wpa_supplicant[2070]:   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Jan 08 13:10:12 host wpa_supplicant[2070]:   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 13:10:12 host wpa_supplicant[2070]:   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+Jan 08 13:10:12 host wpa_supplicant[2070]:   key_mic - hexdump(len=16): 59 d2 c0 85 4a 0f 47 e4 cd 47 78 a5 97 31 ce c2
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 13:10:12 host wpa_supplicant[2070]: RSN: encrypted key data - hexdump(len=32): ab dd 01 4a cf d3 f1 b8 b0 90 a2 e2 68 72 4f 04 f9 04 20 e6 8d a0 5e f9 24 11 e7 04 77 b9 0e 56
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: Decrypt Key Data using AES-UNWRAP (KEK length 16)
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: WPA: RX message 1 of Group Key Handshake from 5c:49:79:41:04:5c (ver=2)
+Jan 08 13:10:12 host wpa_supplicant[2070]: RSN: msg 1/2 key data - hexdump(len=24): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: RSN: received GTK in group key handshake - hexdump(len=18): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: Group Key - hexdump(len=16): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 13:10:12 host wpa_supplicant[2070]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=3 addr=0x55c33298d9c9 key_idx=2 set_tx=0 seq_len=6 key_len=16
+Jan 08 13:10:12 host wpa_supplicant[2070]: nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: nl80211: KEY_SEQ - hexdump(len=6): 00 00 00 00 00 00
+Jan 08 13:10:12 host wpa_supplicant[2070]:    broadcast key
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: WPA: Sending EAPOL-Key 2/2
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: Send EAPOL-Key frame to 5c:49:79:41:04:5c ver=2 mic_len=16 key_mgmt=0x2
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: EAPOL-Key MIC using HMAC-SHA1
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: KCK - hexdump(len=16): [REMOVED]
+Jan 08 13:10:12 host wpa_supplicant[2070]: WPA: Derived Key MIC - hexdump(len=16): 06 0e d7 0f 5d 2d 3f 1b b2 ba ab 02 7c 03 88 2a
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: WPA: Group rekeying completed with 5c:49:79:41:04:5c [GTK=CCMP]
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: Cancelling authentication timeout
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: Determining shared radio frequencies (max len 2)
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: Shared frequencies (len=1): completed iteration
+Jan 08 13:10:12 host wpa_supplicant[2070]: wlan0: freq[0]: 5180, flags=0x1
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 81
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 124
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 125
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 126
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 95 9d
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Add operating class 127
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Channels - hexdump(len=2): 99 a1
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: Update channel list
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161
+Jan 08 13:10:12 host wpa_supplicant[2070]: P2P: cli_channels:
+Jan 08 13:10:12 host wpa_supplicant[2070]: nl80211: Set rekey offload
+Jan 08 13:12:41 host wpa_supplicant[2070]: RTM_NEWLINK: ifi_index=4 ifname=nlmon operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x280 ()
+Jan 08 13:12:41 host wpa_supplicant[2070]: RTM_DELLINK: ifi_index=4 ifname=nlmon operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x280 ()
+Jan 08 13:12:41 host wpa_supplicant[2070]: RTM_DELLINK: Interface 'nlmon' removed
